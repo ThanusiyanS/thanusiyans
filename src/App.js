@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import Header from "./components/Banner/Header";
-import ProfComponent from "./components/Banner/ProfComponent";
+import Header from "./components/Nav/Header";
+import ProfComponent from "./components/Profile/ProfComponent";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
         <Header />
         <ProfComponent />
       </Banner>
+      <FooterColor>
+        <Footer />
+      </FooterColor>
     </Container>
   );
 }
@@ -25,6 +29,6 @@ background: radial-gradient(41.26% 41.26% at 50% 50%, #01262E 0%, #1A1A1A 100%);
   }
 `;
 
-const LightColor = styled.div`
-  background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);
+const FooterColor = styled.div`
+background: radial-gradient(41.26% 41.26% at 50% 50%, #06171B 0%, #01262E 100%);
 `;

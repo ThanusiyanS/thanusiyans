@@ -1,3 +1,11 @@
+# colour codes
+Dark blue - 021A1F
+Light blue - 09B8E8
+Dark gray - 1A1A1A
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
